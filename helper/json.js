@@ -1,7 +1,5 @@
 const fs = require('fs');
 
-
-
 function readJsonFile() {
     let dataFile = fs.readFileSync('./sample/sample.json');
 
